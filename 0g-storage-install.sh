@@ -1,8 +1,9 @@
 #!/bin/bash
 
 # Hiển thị logo hoặc thông báo chào mừng
+source <(curl -s https://raw.githubusercontent.com/syoarttt/scripts/MurphyNode/logo.sh)
 
-sleep 1 && curl -s https://raw.githubusercontent.com/syoarttt/scripts/MurphyNode/logo.sh | bash && sleep 1
+printLogo
 
 # Yêu cầu người dùng nhập tên
 read -p "Enter your name: " NAME
