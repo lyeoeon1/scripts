@@ -9,4 +9,4 @@ echo "                   |_|          |___/                          ";
 echo "                                                               ";
 echo -e "\033[0;32m"
 echo "                                                 murphynode.net"
-echo -e "e[0m"
+echo -e "\e[0m"
